@@ -1,0 +1,21 @@
+var box1,box2,box3,box4;
+
+function setup() {
+  createCanvas(1200,800);
+  box = createSprite(random(20,750));
+  box.shapeColor = "white";
+  box.debug = true;
+  surface1 = createSprite(400, 800,80,30);
+  surface1.shapeColor = "green";
+  surface1.debug = true;
+surface2 = createSprite(450, 750,80,30);
+  surface2.shapeColor = "blue";
+  surface2.debug = true;
+  
+
+function draw() {
+  background(0,0,0);  
+
+  
+  drawSprites();
+}
